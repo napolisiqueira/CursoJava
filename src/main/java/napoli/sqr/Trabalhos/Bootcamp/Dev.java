@@ -1,4 +1,4 @@
-package napoli.sqr.Trabalhos.Bootcamp;
+"""package napoli.sqr.Trabalhos.Bootcamp;
 
 import java.util.LinkedHashSet;
 import java.util.Optional;
@@ -43,19 +43,19 @@ public class Dev {
         this.nome = nome;
     }
 
-    public Set<String> getConteudosIncritos() {
+    public Set<Conteudo> getConteudosIncritos() {
         return conteudosIncritos;
     }
 
-    public void setConteudosIncritos(Set<String> conteudosIncritos) {
+    public void setConteudosIncritos(Set<Conteudo> conteudosIncritos) {
         this.conteudosIncritos = conteudosIncritos;
     }
 
-    public Set<String> getConteudosConcluidos() {
+    public Set<Conteudo> getConteudosConcluidos() {
         return conteudosConcluidos;
     }
 
-    public void setConteudosConcluidos(Set<String> conteudosConcluidos) {
+    public void setConteudosConcluidos(Set<Conteudo> conteudosConcluidos) {
         this.conteudosConcluidos = conteudosConcluidos;
     }
 }
