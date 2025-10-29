@@ -1,10 +1,8 @@
 import napoli.sqr.CollectionsJava.CatsList.Cats;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class Aula1_jUnit {
